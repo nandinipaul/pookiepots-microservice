@@ -12,7 +12,7 @@ client = OpenAI(
     api_key="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"
 )
 
-MODEL_NAME = "openrouter/free"
+MODEL_NAME = "openai/gpt-4o-mini"
 
 
 def get_chat_history(username):
