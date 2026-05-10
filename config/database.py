@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MONGO_URL = os.getenv("MONGO_URL")
+MONGO_URL = "mongodb://nandini:VODM0juaCdkR7aYfOGYSCKt2ImUJwY_ojDdj7-kxTPEUPg-v@db3be873-5280-44f4-9db3-df4fc090bdfa.asia-south2.firestore.goog:443/default?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false"
 
 client = MongoClient(
     MONGO_URL,

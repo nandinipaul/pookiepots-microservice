@@ -9,10 +9,10 @@ load_dotenv()
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("OPENROUTER_API_KEY")
+    api_key="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"
 )
 
-MODEL_NAME = os.getenv("OPENROUTER_MODEL")
+MODEL_NAME = "openrouter/free"
 
 
 def get_chat_history(username):
